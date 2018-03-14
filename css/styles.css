@@ -5,7 +5,15 @@
  */
 
 body {
-  padding-top: 54px;
+  padding-top: 4em;
+}
+
+nav {
+  display:n
+}
+
+.content-container {
+  padding-top: 3em;
 }
 
 .smallheader {
@@ -33,9 +41,156 @@ body {
     filter: grayscale(0%);
 }
 
+.main-footer {
+  vertical-align: bottom;
+  height: 1px;
+}
 
-@media (min-width: 992px) {
+.navbar-expando {
+  display: inline-block;
+}
+
+.icon-list {
+  list-style: none;
+  display: inline;
+}
+
+.icon-icon {
+  max-width: 4em;
+  max-height: 4em;
+  vertical-align: baseline;
+}
+
+
+
+@media (max-width: 992px) {
   body {
-    padding-top: 56px;/
+    padding-top:9em;
   }
+  .side-info {
+    min-width: 100%;
+  }
+
+  .mobile-centered {
+    text-align: center;
+    margin: auto;
+  }
+
+  .tool-overlay {
+    text-align: center;
+  }
+}
+/* Profile Image */
+
+.profile-image {
+  margin: auto;
+  max-width: 10em;
+  border-radius: 7em;
+  box-shadow:  0px 0px 30px black;
+
+}
+
+
+/* On Hover Icon Alt Text */
+.tool-icon {
+  display: inline-block;
+  position: relative;
+  width: 4em;
+  height: 4em;
+}
+
+.tool-icon:hover .tool-overlay,
+.tool-icon.tool-selected .tool-overlay {
+  opacity: 1;
+  -webkit-transition: opacity .22s ease-in-out;
+  -moz-transition: opacity .22s ease-in-out;
+  -ms-transition: opacity .22s ease-in-out;
+  -o-transition: opacity .22s ease-in-out;
+  transition: opacity .22s ease-in-out;
+}
+
+.tool-overlay {
+  position: absolute;
+  text-align: center;
+  top: 4em;
+  width: 8em;
+  left: -2em;
+  margin: 0.2em 0.1em 0.2em 0.1em;
+  padding: 0.3em 0.3em 0.3em 0.3em;
+  border-radius: 1em;
+  border-width: 1em;
+  opacity: 0;
+  font-weight: bold;
+  -webkit-transition: opacity .22s ease-in-out;
+  -moz-transition: opacity .22s ease-in-out;
+  -ms-transition: opacity .22s ease-in-out;
+  -o-transition: opacity .22s ease-in-out;
+  transition: opacity .22s ease-in-out;
+}
+
+.tool-overlay.DreamWeaver {
+background-color: #072600;
+border-color: #35fa00;
+color: #35fa00;
+}
+
+.tool-overlay.HTML5 {
+background-color: #e44d26;
+color: white;
+}
+
+.tool-overlay.CSS3 {
+background-color: #1572b6;
+color: white;
+}
+
+.tool-overlay.JavaScript {
+background-color: #f0db4f;
+color: #323330;
+}
+
+.tool-overlay.jQuery {
+background-color: #0868ac;
+color: #131b28;
+}
+
+.tool-overlay.AngularJS {
+background-color: #dd1b16;
+color: #f2f2f2;
+}
+
+#project1 {
+display: flex;
+}
+
+#project2 {
+  display: none;
+}
+
+#project3 {
+  display: none;
+}
+
+#project4 {
+  display: none;
+}
+
+#project5 {
+  display: none;
+}
+
+.projectSelect1 {
+  display: none;
+}
+
+.projectSelect2 {
+}
+
+.projectSelect3 {
+}
+
+.projectSelect4 {
+}
+
+.projectSelect5 {
 }
