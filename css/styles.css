@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-  display:n
+  display: n;
 }
 
 .content-container {
@@ -21,24 +21,24 @@ nav {
 }
 
 .bigboxshadow {
-  box-shadow:  0px 0px 30px black;
+  box-shadow: 0px 0px 30px black;
 }
 
 .boxshadow {
-  box-shadow:  0px 0px 20px #474747;
+  box-shadow: 0px 0px 20px #474747;
   transition-duration: 0.25s;
   -webkit-filter: grayscale(70%) brightness(0.8); /* Safari 6.0 - 9.0 */
-    filter: grayscale(70%) brightness(0.8);
+  filter: grayscale(70%) brightness(0.8);
 }
 
 .boxshadow:hover {
-  box-shadow:  0px 0px 40px #474747;
+  box-shadow: 0px 0px 40px #474747;
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
   transition-duration: 0.25s;
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 .main-footer {
@@ -58,14 +58,12 @@ nav {
 .icon-icon {
   max-width: 4em;
   max-height: 4em;
-  vertical-align: baseline;
+  vertical-align: top;
 }
-
-
 
 @media (max-width: 992px) {
   body {
-    padding-top:9em;
+    padding-top: 9em;
   }
   .side-info {
     min-width: 100%;
@@ -86,10 +84,8 @@ nav {
   margin: auto;
   max-width: 10em;
   border-radius: 7em;
-  box-shadow:  0px 0px 30px black;
-
+  box-shadow: 0px 0px 30px black;
 }
-
 
 /* On Hover Icon Alt Text */
 .tool-icon {
@@ -102,11 +98,11 @@ nav {
 .tool-icon:hover .tool-overlay,
 .tool-icon.tool-selected .tool-overlay {
   opacity: 1;
-  -webkit-transition: opacity .22s ease-in-out;
-  -moz-transition: opacity .22s ease-in-out;
-  -ms-transition: opacity .22s ease-in-out;
-  -o-transition: opacity .22s ease-in-out;
-  transition: opacity .22s ease-in-out;
+  -webkit-transition: opacity 0.22s ease-in-out;
+  -moz-transition: opacity 0.22s ease-in-out;
+  -ms-transition: opacity 0.22s ease-in-out;
+  -o-transition: opacity 0.22s ease-in-out;
+  transition: opacity 0.22s ease-in-out;
 }
 
 .tool-overlay {
@@ -121,76 +117,56 @@ nav {
   border-width: 1em;
   opacity: 0;
   font-weight: bold;
-  -webkit-transition: opacity .22s ease-in-out;
-  -moz-transition: opacity .22s ease-in-out;
-  -ms-transition: opacity .22s ease-in-out;
-  -o-transition: opacity .22s ease-in-out;
-  transition: opacity .22s ease-in-out;
+  -webkit-transition: opacity 0.22s ease-in-out;
+  -moz-transition: opacity 0.22s ease-in-out;
+  -ms-transition: opacity 0.22s ease-in-out;
+  -o-transition: opacity 0.22s ease-in-out;
+  transition: opacity 0.22s ease-in-out;
 }
 
 .tool-overlay.DreamWeaver {
-background-color: #072600;
-border-color: #35fa00;
-color: #35fa00;
+  background-color: #072600;
+  color: #35fa00;
 }
 
 .tool-overlay.HTML5 {
-background-color: #e44d26;
-color: white;
+  background-color: #e44d26;
+  color: white;
 }
 
 .tool-overlay.CSS3 {
-background-color: #1572b6;
-color: white;
+  background-color: #1572b6;
+  color: white;/
 }
 
 .tool-overlay.JavaScript {
-background-color: #f0db4f;
-color: #323330;
+  background-color: #f0db4f;
+  color: #323330;
 }
 
 .tool-overlay.jQuery {
-background-color: #0868ac;
-color: #131b28;
+  background-color: #0868ac;
+  color: #131b28;
 }
 
 .tool-overlay.AngularJS {
-background-color: #dd1b16;
-color: #f2f2f2;
+  background-color: #dd1b16;
+  color: #f2f2f2;
+}
+
+.tool-overlay.ReactJS {
+  background-color: #282c34;
+  color: #61dbfb;
 }
 
 #project1 {
-display: flex;
+  display: flex;
 }
 
-#project2 {
-  display: none;
-}
-
-#project3 {
-  display: none;
-}
-
-#project4 {
-  display: none;
-}
-
-#project5 {
+#project2, #project3, #project4, #project5, #project6 {
   display: none;
 }
 
 .projectSelect1 {
   display: none;
-}
-
-.projectSelect2 {
-}
-
-.projectSelect3 {
-}
-
-.projectSelect4 {
-}
-
-.projectSelect5 {
 }

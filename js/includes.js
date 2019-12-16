@@ -1,5 +1,4 @@
-$(document).ready(function(){
-
+$(document).ready(function() {
   $.get("includes/project1.html", function(data) {
     $("#project1").html(data);
   });
@@ -20,11 +19,13 @@ $(document).ready(function(){
     $("#project5").html(data);
   });
 
+  $.get("includes/project6.html", function(data) {
+    $("#project6").html(data);
+  });
+
   $.get("includes/about.html", function(data) {
     $("#aboutPage").html(data);
   });
-
-
 
   $.get("includes/icons/dreamweaver.html", function(data) {
     $(".dreamweaverInclude").html(data);
@@ -50,7 +51,7 @@ $(document).ready(function(){
     $(".angularjsInclude").html(data);
   });
 
-
-
-
+  $.get("includes/icons/reactjs.html", function(data) {
+    $(".reactjsInclude").html(data);
+  });
 });
