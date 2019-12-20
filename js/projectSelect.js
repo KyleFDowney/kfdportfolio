@@ -6,12 +6,14 @@ $(document).ready(function() {
     $("#project4").hide();
     $("#project5").hide();
     $("#project6").hide();
+    $("#project7").hide();
     $(".projectSelect1").hide();
     $(".projectSelect2").show();
     $(".projectSelect3").show();
     $(".projectSelect4").show();
     $(".projectSelect5").show();
     $(".projectSelect6").show();
+    $(".projectSelect7").show();
 
     $("html, body").animate(
       {
@@ -28,12 +30,14 @@ $(document).ready(function() {
     $("#project4").hide();
     $("#project5").hide();
     $("#project6").hide();
+    $("#project7").hide();
     $(".projectSelect1").show();
     $(".projectSelect2").hide();
     $(".projectSelect3").show();
     $(".projectSelect4").show();
     $(".projectSelect5").show();
     $(".projectSelect6").show();
+    $(".projectSelect7").show();
 
     $("html, body").animate(
       {
@@ -50,12 +54,14 @@ $(document).ready(function() {
     $("#project4").hide();
     $("#project5").hide();
     $("#project6").hide();
+    $("#project7").hide();
     $(".projectSelect1").show();
     $(".projectSelect2").show();
     $(".projectSelect3").hide();
     $(".projectSelect4").show();
     $(".projectSelect5").show();
     $(".projectSelect6").show();
+    $(".projectSelect7").show();
 
     $("html, body").animate(
       {
@@ -72,12 +78,14 @@ $(document).ready(function() {
     $("#project4").css("display", "flex");
     $("#project5").hide();
     $("#project6").hide();
+    $("#project7").hide();
     $(".projectSelect1").show();
     $(".projectSelect2").show();
     $(".projectSelect3").show();
     $(".projectSelect4").hide();
     $(".projectSelect5").show();
     $(".projectSelect6").show();
+    $(".projectSelect7").show();
 
     $("html, body").animate(
       {
@@ -94,12 +102,14 @@ $(document).ready(function() {
     $("#project4").hide();
     $("#project5").css("display", "flex");
     $("#project6").hide();
+    $("#project7").hide();
     $(".projectSelect1").show();
     $(".projectSelect2").show();
     $(".projectSelect3").show();
     $(".projectSelect4").show();
     $(".projectSelect5").hide();
     $(".projectSelect6").show();
+    $(".projectSelect7").show();
 
     $("html, body").animate(
       {
@@ -116,12 +126,38 @@ $(document).ready(function() {
     $("#project4").hide();
     $("#project5").hide();
     $("#project6").css("display", "flex");
+    $("#project7").hide();
     $(".projectSelect1").show();
     $(".projectSelect2").show();
     $(".projectSelect3").show();
     $(".projectSelect4").show();
     $(".projectSelect5").show();
     $(".projectSelect6").hide();
+    $(".projectSelect7").show();
+
+    $("html, body").animate(
+      {
+        scrollTop: $("body").offset().top
+      },
+      250
+    );
+  });
+
+  $(".projectSelect7").click(function() {
+    $("#project1").hide();
+    $("#project2").hide();
+    $("#project3").hide();
+    $("#project4").hide();
+    $("#project5").hide();
+    $("#project6").hide();
+    $("#project7").css("display", "flex");
+    $(".projectSelect1").show();
+    $(".projectSelect2").show();
+    $(".projectSelect3").show();
+    $(".projectSelect4").show();
+    $(".projectSelect5").show();
+    $(".projectSelect6").show();
+    $(".projectSelect7").hide();
 
     $("html, body").animate(
       {

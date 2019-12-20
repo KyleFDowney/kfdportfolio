@@ -23,6 +23,10 @@ $(document).ready(function() {
     $("#project6").html(data);
   });
 
+  $.get("includes/project7.html", function(data) {
+    $("#project7").html(data);
+  });
+
   $.get("includes/about.html", function(data) {
     $("#aboutPage").html(data);
   });
